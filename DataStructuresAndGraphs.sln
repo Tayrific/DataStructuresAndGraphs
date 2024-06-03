@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSTreeEdgesProject", "DFST
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstraShortestPath2", "DijkstraShortestPath2\DijkstraShortestPath2.csproj", "{20DBC191-6BC5-4569-B46D-2E93F8035CC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked", "Linked\Linked.csproj", "{E5182070-C568-49EB-9EAF-190D8F7854ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5182070-C568-49EB-9EAF-190D8F7854ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5182070-C568-49EB-9EAF-190D8F7854ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5182070-C568-49EB-9EAF-190D8F7854ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5182070-C568-49EB-9EAF-190D8F7854ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
