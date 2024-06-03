@@ -33,16 +33,17 @@
             foreach (var item in obj)
             {
                 Console.Write(item + " , ");
-                if (item is int intValue)
+                if (item is int intValue) //checking if int and adding
                 {
                     intSum += intValue;
                 }
-                else if (item is double doubleValue)
+                else if (item is double doubleValue) //checing if double and adding
                 {
                     doubleSum += doubleValue;
                 }
             }
 
+            //displaying results
             Console.WriteLine("\nSumn of integers: {0}", intSum);
             Console.WriteLine("Sumn of doubles: {0}", doubleSum);
  
@@ -72,7 +73,6 @@
             // Display the result
             Console.WriteLine($"Sum of digits: {result}");
 
-            // Wait for user input to close the console window
             Console.ReadLine();
         }
     }
