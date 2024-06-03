@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearch", "Graph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFSTreeEdgesProjec", "BFSTreeEdgesProjec\BFSTreeEdgesProjec.csproj", "{8781808E-96E0-4356-9F07-4DC67ECC33FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstSearch", "DepthFirstSearch\DepthFirstSearch.csproj", "{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8781808E-96E0-4356-9F07-4DC67ECC33FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8781808E-96E0-4356-9F07-4DC67ECC33FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8781808E-96E0-4356-9F07-4DC67ECC33FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
