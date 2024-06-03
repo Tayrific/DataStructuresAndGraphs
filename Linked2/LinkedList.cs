@@ -27,29 +27,68 @@ namespace Linked2
         //removing duplicate data
         public void RemoveDuplicate()
         {
-            if (head == null) //if empty list method returns
+            if (IsEmpty())
+            {
+                throw new System.InvalidOperationException("EmptyListException");
+            }
+
+            Node current = head; 
+
+            while (current != null) // Outer loop iterating through each node
+            {
+                Node temp = current; // Set temp to the node after current
+                while (temp.next != null) // Inner loop to compare each node with current
+                {
+                    if (temp.next.value == current.value)
+                    {
+                        temp.next = temp.next.next; // Remove duplicates
+                        size--; // decrease the size
+                    }
+                    else
+                    {
+                        temp = temp.next; 
+                    }
+                }
+                current = current.next; 
+            }
+        }
+
+        //method for bubble sort
+
+        public void BubbleSort()
+        {
+            if (IsEmpty())
+            {
+                throw new System.InvalidOperationException("EmptyListException");
+            }
+
+            if (size == 1) //already sorted as only 1
             {
                 return;
             }
 
-            Node current = head; //starting at the head
+            bool swapped = true;
+            Node current = head;
+            Node lastSorted = null;
 
-            while (current != null) //nested while loop going -- outer loop 
+            while (swapped) //continues until no swaps are make
             {
-                Node temp = current.next;
-                while (temp.next != null) //inner loop checking if any value matched the current value being checked
+                swapped = false;
+                current = head;
+
+                while (current.next != lastSorted)
                 {
-                    if (temp.next.value == current.value)
+                    if (current.value > current.next.value) //switching the values if the one before is bigger
                     {
-                        temp.next = temp.next.next; // Remove duplicate by setting 
-                        size--;
+                        int temp = current.value; 
+                        current.value = current.next.value;
+                        current.next.value = temp;
+
+                        swapped = true; //swapped turns to true indicating the list might not be sorted
                     }
-                    else
-                    {
-                        temp = temp.next;
-                    }
+                    current = current.next;
                 }
-                current = current.next;
+                lastSorted = current;
             }
         }
 

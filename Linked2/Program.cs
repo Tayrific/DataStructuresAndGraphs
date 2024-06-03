@@ -25,6 +25,8 @@
             LList.Print();
             LList.RemoveDuplicate();
             LList.Print();
+            LList.BubbleSort();
+            LList.Print();
             Console.ReadLine();
 
         }
