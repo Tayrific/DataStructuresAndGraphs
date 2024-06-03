@@ -73,6 +73,30 @@
             // Display the result
             Console.WriteLine($"Sum of digits: {result}");
 
+
+            Console.WriteLine("--------------------");
+            Console.WriteLine("reversing order: ");
+            int[] rev = new[] { 1, 2, 3, 4, 5, 6 };
+            Console.Write("Order: ");
+            foreach (var number in rev)
+            {
+                Console.Write(number + " ");
+            }
+
+            int length = rev.Length;
+            for (int i = 0; i < length / 2; i++) // swapping elements in pairs till mid of array is reached
+            {
+                int temp = rev[i];
+                rev[i] = rev[length - 1 - i];
+                rev[length - 1 - i] = temp;
+            }
+
+            Console.Write("\nReversed array:"); // prints final array stored in the original array
+            foreach (var number in rev)
+            {
+                Console.Write(number + " ");
+            }
+
             Console.ReadLine();
         }
     }
