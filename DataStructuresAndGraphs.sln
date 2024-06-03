@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstSearch", "DepthFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSTreeEdgesProject", "DFSTreeEdgesProject\DFSTreeEdgesProject.csproj", "{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstraShortestPath2", "DijkstraShortestPath2\DijkstraShortestPath2.csproj", "{20DBC191-6BC5-4569-B46D-2E93F8035CC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DBC191-6BC5-4569-B46D-2E93F8035CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
