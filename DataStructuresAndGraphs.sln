@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFSTreeEdgesProjec", "BFSTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstSearch", "DepthFirstSearch\DepthFirstSearch.csproj", "{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFSTreeEdgesProject", "DFSTreeEdgesProject\DFSTreeEdgesProject.csproj", "{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F71937F8-65A1-4F78-8AE9-42DF645AEB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655F76A1-C952-4A3A-9A57-F2BEFE24B0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
