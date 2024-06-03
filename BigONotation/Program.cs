@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-
 namespace BigONotation
 {
     internal class Program
@@ -21,7 +20,7 @@ namespace BigONotation
             int i, j, m = 0;
             for (i = 0; i < n; i++)
             {
-                for (j = 0; j < n; j++)
+                for (j = 0; j < i; j++)
                 {
                     m = m + 1;
                 }
@@ -29,5 +28,4 @@ namespace BigONotation
             return m;
         }
     }
-
 }
