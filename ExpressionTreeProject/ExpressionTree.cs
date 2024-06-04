@@ -149,6 +149,8 @@ namespace ExpressionTreeProject
             { return leftValue - rightValue; }
             else if (p.info == '*')
             { return leftValue * rightValue; }
+            else if (p.info == '^')
+            { return (int)Math.Pow(leftValue, rightValue); }
             else
             { return leftValue / rightValue; }
 

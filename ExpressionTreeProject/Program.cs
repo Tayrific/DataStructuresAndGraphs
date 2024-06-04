@@ -12,11 +12,11 @@ namespace ExpressionTreeProject
             public int precedence(char op)
             {
                 if (op == '*' || op == '/' || op == '%')
-                    return 3;
-                else if (op == '+' || op == '-')
                     return 2;
-                else if (op == '^')
+                else if (op == '+' || op == '-')
                     return 1;
+                else if (op == '^')
+                    return 3;
                 else return -1;
             }
 
@@ -84,7 +84,7 @@ namespace ExpressionTreeProject
             string input;
             Console.WriteLine("-----------------");
             Implementation imp = new Implementation();
-            input = "1+2*3+2+3";
+            input = "1+2^3+2+3";
             string postfix = imp.Infix_To_Postfix(ref input);
             Console.WriteLine("infix: " + input);
             Console.WriteLine("Postfix: " + postfix);
