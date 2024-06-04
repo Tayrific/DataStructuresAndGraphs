@@ -43,12 +43,12 @@
             int[] leftArray = new int[leftArrayLength];
             int[] rightArray = new int[rightArrayLength];
 
-            for (int i = 0; i < leftArrayLength; i++)
+            for (int i = 0; i < leftArrayLength; i++) //adding elements to left array
             {
                 leftArray[i] = array[l + i];
             }
 
-            for (int j = 0; j < rightArrayLength; j++)
+            for (int j = 0; j < rightArrayLength; j++) //adding elements to right array
             {
                 rightArray[j] = array[m + 1 + j];
             }
@@ -56,6 +56,7 @@
             int k = l;
             int leftIndex = 0, rightIndex = 0;
 
+            //sorting the 2 arrays
             while (leftIndex < leftArrayLength && rightIndex < rightArrayLength)
             {
                 if (leftArray[leftIndex] <= rightArray[rightIndex])
@@ -71,7 +72,8 @@
                 k++;
             }
 
-            while (leftIndex < leftArrayLength)
+            //adding the 2 seperate array back to 1 array
+            while (leftIndex < leftArrayLength) 
             {
                 array[k] = leftArray[leftIndex];
                 leftIndex++;
