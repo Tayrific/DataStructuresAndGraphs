@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked2", "Linked2\Linked2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{AC2B93AA-6805-4391-8732-8C611AD1CC2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{A1ED06A1-4022-4882-A02B-992B6B05786E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{CBE29682-B5DD-455E-9964-B09760A70CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{AC2B93AA-6805-4391-8732-8C611AD1CC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2B93AA-6805-4391-8732-8C611AD1CC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC2B93AA-6805-4391-8732-8C611AD1CC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1ED06A1-4022-4882-A02B-992B6B05786E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1ED06A1-4022-4882-A02B-992B6B05786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1ED06A1-4022-4882-A02B-992B6B05786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1ED06A1-4022-4882-A02B-992B6B05786E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE29682-B5DD-455E-9964-B09760A70CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE29682-B5DD-455E-9964-B09760A70CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE29682-B5DD-455E-9964-B09760A70CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE29682-B5DD-455E-9964-B09760A70CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
