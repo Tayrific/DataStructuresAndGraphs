@@ -13,8 +13,6 @@
                 Console.Write(array[i] + " ");
             }
 
-            SelectionSort(array);
-
             Console.Write("\nsorted List: ");
             for (int i = 0; i < array.Length; i++)
             {
