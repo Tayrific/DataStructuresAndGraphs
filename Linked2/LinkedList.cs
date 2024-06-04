@@ -93,6 +93,34 @@ namespace Linked2
         }
 
 
+        public int NthNodeFromBeginning(int index)
+        {
+            if (IsEmpty())
+            {
+                throw new System.InvalidOperationException("EmptyListException");
+            }
+
+            if (index < 0 || index >= size )
+            {
+                throw new IndexOutOfRangeException("index is out of range");
+            }
+
+            Node current = head;
+            int count = 0;
+            while (count < index)
+            {
+                current = current.next; // Move current to the next node
+                count++;
+            }
+
+            Console.WriteLine("Value of the {0}th node from the beginning: {1}", index+1, current.value);
+            return count;
+
+
+        }
+
+
+
         //Size method
         public int Size()
         {
