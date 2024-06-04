@@ -14,7 +14,7 @@ namespace ShellSort
 
             ShellSort(array, size);
 
-            Console.Write("\nSorted List: ");
+            Console.Write("Sorted List: ");
             Arr_element(array);
 
             Console.ReadLine();
