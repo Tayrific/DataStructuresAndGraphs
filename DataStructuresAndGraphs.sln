@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackArray", "StackArray\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExercise", "StackExercise\StackExercise.csproj", "{4A0A937D-4D3E-47E1-9F88-81B8F7AFAE13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreArrays", "MoreArrays\MoreArrays.csproj", "{51D141F7-0BF7-4C06-AAE6-3F227B51F8CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{4A0A937D-4D3E-47E1-9F88-81B8F7AFAE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0A937D-4D3E-47E1-9F88-81B8F7AFAE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A0A937D-4D3E-47E1-9F88-81B8F7AFAE13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D141F7-0BF7-4C06-AAE6-3F227B51F8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D141F7-0BF7-4C06-AAE6-3F227B51F8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D141F7-0BF7-4C06-AAE6-3F227B51F8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D141F7-0BF7-4C06-AAE6-3F227B51F8CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
